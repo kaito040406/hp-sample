@@ -19,7 +19,7 @@ const NewTest: React.FC = () => {
         <div className="wapper" id="container">
         <header>
         <div className="header_box">
-          <img src="https://revolve-official.com/wp-content/uploads/2021/04/Revolve-logo.png" alt="logo" className="image" alt="Re'volve 本町" />
+          <img src="https://revolve-official.com/wp-content/uploads/2021/04/Revolve-logo.png" className="image" alt="Re'volve 本町" />
           </div>
         </header>
       
