@@ -371,7 +371,15 @@ const NewTest: React.FC = () => {
           </div>
           <div className="page2_message_4_iframe">
             <span>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/b_aTGKeWGA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="iframe"></iframe>
+              <style>
+                {
+                  `.site-center-aligned{
+                    width:560;
+                    height:315;
+                  }`
+                }
+              </style>
+              <iframe src="https://www.youtube.com/embed/b_aTGKeWGA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="iframe"></iframe>
             </span>
           </div>
 
@@ -381,7 +389,7 @@ const NewTest: React.FC = () => {
             </div>
           </div>
         <div className="page2_message_4_iframe">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/X3ife-OcREI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/X3ife-OcREI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="iframe"></iframe>
         </div>
           
           <div className="page4_message_1">
