@@ -6,6 +6,7 @@ import Slider from "../components/recruit/Slider"
 import PageTemplate from "../components/layouts/PageTemplate"
 import theme from "../components/utils/theme"
 
+
 const useStyles = makeStyles(() => ({
   container: {
     marginTop: "3rem",
